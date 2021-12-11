@@ -4,17 +4,21 @@ body{
     color : green;
 }
 
+li{
+    list-style: none;
+}
+
 .Menu{
     margin: auto;
-    border : solid;
-    padding-left: 10%;
-    border-color: white;
-    border-radius: 3px;
+    content: center;
 }
 .MenuItem{
     border : solid;
-    color : cyian;
-    padding-left: 10%;
+    color : yellow;
+
+    padding-top: 2%;
+    padding-bottom: 2%;
+
     border-color: cyan;
     border-radius: 1px;
 }
