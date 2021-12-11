@@ -1,5 +1,6 @@
 
-* {
+*{
+    font: italic small-caps bold 16px/2 cursive;
     background-color: black;
     color : green;
 }
