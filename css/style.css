@@ -64,6 +64,6 @@ li a{
 a:link, a:visited{
     color:var(--textColor);
 }
-.li a:hover, li a:active{
+.MenuItem a:hover, .MenuItem a:active{
     color : var(--hoverColor);
 }
