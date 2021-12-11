@@ -4,7 +4,7 @@
 }
 
 html{ 
-    background-image: url(../images/background.jpg) no-repeat center fixed; 
+    background-image: url(../images/background.jpg) no-repeat center; 
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -24,22 +24,23 @@ h1{
     padding-left: 5%;
 }
 
-
 ul {
 
     list-style-type: none;
-    margin: 0; padding: 0;
+    margin: 0; padding: 2%;
     overflow: hidden;
     background-color: red;
 }
+
 li{
     list-style: none;
     float :left;
+    padding-left: 3%; padding-right: 3%;
 }
 
 li a{
     display: block;
-    padding: 8px;
+    padding: 15px;
     background-color: var(--hoverColor);
     text-align: center;
 }
