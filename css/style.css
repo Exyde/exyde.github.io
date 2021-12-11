@@ -4,11 +4,10 @@
 
 body{
     font: italic small-caps bold 16px/2 cursive;
-    font-family: 'Common Pixel', sans-serif;
+    font-family: 'Pixel-Art', sans-serif;
                                                 
-    background-color: black;
     background-image: url(../images/background.jpg);
-    color : green;
+    color : white;
 }
 
 li{
