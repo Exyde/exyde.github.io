@@ -25,11 +25,9 @@ h1{
 }
 
 ul {
-
     list-style-type: none;
     margin: 0; padding: 2%;
     overflow: hidden;
-    background-color: red;
 }
 
 li{
@@ -41,7 +39,6 @@ li{
 li a{
     display: block;
     padding: 2px;
-    background-color: var(--hoverColor);
     text-align: center;
 }
 
