@@ -4,18 +4,15 @@ body{
     color : green;
 }
 
-nav{
-
-}
-
-
 .Menu{
     margin: auto;
+    border : solid;
     padding-left: 10%;
     border-color: white;
     border-radius: 3px;
 }
 .MenuItem{
+    border : solid;
     color : cyian;
     padding-left: 10%;
     border-color: cyan;
