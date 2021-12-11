@@ -1,6 +1,7 @@
 body{
     font: italic small-caps bold 16px/2 cursive;
     background-color: black;
+    background-image: url(../images/background.jpg);
     color : green;
 }
 
@@ -8,10 +9,6 @@ li{
     list-style: none;
 }
 
-.Menu{
-    margin: auto;
-    content: center;
-}
 .MenuItem{
     border : solid;
     color : yellow;
