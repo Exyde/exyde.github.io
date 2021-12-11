@@ -1,5 +1,11 @@
+:root{
+    --hoverColor :rgb(202, 155, 202);
+}
+
 body{
     font: italic small-caps bold 16px/2 cursive;
+    font-family: 'Common Pixel', sans-serif;
+                                                
     background-color: black;
     background-image: url(../images/background.jpg);
     color : green;
@@ -16,8 +22,20 @@ li{
     padding-top: 2%;
     padding-bottom: 2%;
 
-    border-color: cyan;
+    border-color: white;
+
     border-radius: 20px;
     border-width: 1px;;
     text-align: center;
+}
+
+.MenuItem:hover{
+    border-color:var(--hoverColor);
+}
+
+a{
+    color:white;
+}
+.a:hover{
+    color : var(--hoverColor);
 }
