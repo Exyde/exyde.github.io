@@ -4,7 +4,7 @@
 }
 
 html{ 
-    background-image: url(../images/background.jpg) no-repeat center; 
+    background-image: url(../images/background.jpg); 
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -40,7 +40,7 @@ li{
 
 li a{
     display: block;
-    padding: 15px;
+    padding: 2px;
     background-color: var(--hoverColor);
     text-align: center;
 }
