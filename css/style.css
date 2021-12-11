@@ -50,18 +50,19 @@ li a{
 
     padding-top: 2%;
     padding-bottom: 2%;
+    padding-right: 2%;
 
     border-color: white;
-
+    border-radius: 25px;
     border-width: 1px;;
     text-align: center;
 
-    height: 5%;
+    height: 3%;
 }
 
 .MenuItem:hover{
     border-color:var(--hoverColor);
-    background-color: var(--backgroundItemColor);
+    background-color: var(--backgroundItemColor);   
 }
 
 a:link, a:visited{
