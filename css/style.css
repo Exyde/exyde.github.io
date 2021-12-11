@@ -20,5 +20,7 @@ li{
     padding-bottom: 2%;
 
     border-color: cyan;
-    border-radius: 1px;
+    border-radius: 20px;
+    border-width: 1px;;
+    text-align: center;
 }
