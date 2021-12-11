@@ -3,3 +3,10 @@ body{
     background-color: black;
     color : green;
 }
+
+nav{
+    margin: auto;
+    padding-left: 10%;
+    border-color: white;
+    border-radius: 3px;
+}
