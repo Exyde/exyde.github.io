@@ -21,12 +21,27 @@ body{
 }
 
 h1{
-    scroll-padding-left: 5%;
+    padding-left: 5%;
 }
 
+
+ul {
+
+    list-style-type: none;
+    margin: 0; padding: 0;
+    overflow: hidden;
+    background-color: red;
+}
 li{
     list-style: none;
-    display: inline;
+    float :left;
+}
+
+li a{
+    display: block;
+    padding: 8px;
+    background-color: var(--hoverColor);
+    text-align: center;
 }
 
 .MenuItem{
