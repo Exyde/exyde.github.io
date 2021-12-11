@@ -1,5 +1,6 @@
 :root{
     --hoverColor :rgb(202, 155, 202);
+    --textColor : white;
 }
 
 body{
@@ -7,7 +8,7 @@ body{
     font-family: 'Pixel-Art', sans-serif;
                                                 
     background-image: url(../images/background.jpg);
-    color : white;
+    color :var(--textColor);
 }
 
 li{
@@ -16,7 +17,7 @@ li{
 
 .MenuItem{
     border : solid;
-    color : yellow;
+    color :var(--textColor);
 
     padding-top: 2%;
     padding-bottom: 2%;
@@ -32,9 +33,9 @@ li{
     border-color:var(--hoverColor);
 }
 
-a{
-    color:white;
+a:link, a:visited{
+    color:var(--textColor);
 }
-.a:hover{
+.a:hover, a:active{
     color : var(--hoverColor);
 }
