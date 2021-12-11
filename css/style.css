@@ -20,8 +20,13 @@ body{
     color :var(--textColor);
 }
 
+h1{
+    scroll-padding-left: 5%;
+}
+
 li{
     list-style: none;
+    display: inline;
 }
 
 .MenuItem{
