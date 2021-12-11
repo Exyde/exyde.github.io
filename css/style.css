@@ -51,9 +51,10 @@ li a{
 
     border-color: white;
 
-    border-radius: 20px;
     border-width: 1px;;
     text-align: center;
+
+    height: 5%;
 }
 
 .MenuItem:hover{
@@ -63,6 +64,6 @@ li a{
 a:link, a:visited{
     color:var(--textColor);
 }
-.a:hover, a:active{
+.li a:hover, li a:active{
     color : var(--hoverColor);
 }
