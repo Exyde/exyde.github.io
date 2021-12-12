@@ -177,6 +177,7 @@ nav ul li {
     background-color: var(--alpha-primary-color);
     border-radius: 11px;
     border-color: var(--secondary-color);
+    border : solid;
     border-width: 1px;
     box-shadow: 0 3px 10px var(--secondary-shadow);
     padding: 20px;
