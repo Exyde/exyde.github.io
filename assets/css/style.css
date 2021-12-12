@@ -287,8 +287,8 @@ nav ul li {
 }
 
 .input-field::placeholder {
-  padding: 0.5rem;
-  color: var(--primary-color);
+  padding: 10rem;
+  color: var(--page-color);
 }
 
 .submit-btn {
@@ -306,7 +306,6 @@ nav ul li {
 .submit-btn:hover {
   background-color: var(--primary-color);
   border: 2px solid var(--primary-color);
-  cursor: pointer;
 }
 
 
