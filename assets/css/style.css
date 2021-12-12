@@ -1,71 +1,49 @@
-:root{
-    --hoverColor :rgb(233, 192, 80);
-    --backgroundItemColor :rgba(202, 155, 202, 0.5);
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,900;1,700&display=swap");
 
-    --textColor : white;
+/* Variables */
+:root {
+  --font-family: "Roboto", sans-serf;
+  --normal-font: 400;
+  --bold-font: 700;
+  --bolder-font: 900;
+
+  --bg-color: #806882;
+  --primary-color: #e2cca2;
+  --secondary-color: #e6962e;
+  --primary-shadow: #2c2c30;
+  --secondary-shadow: #151211;
+
+  --bottom-margin: 0.5rem;
+  --bottom-margin-2: 1rem;
+  --line-height: 1.7rem;
+  --transition: 0.3s;
+}
+/* Variables end */
+
+html {
+  scroll-behavior: smooth;
 }
 
-html{ 
-    background-image: url(../images/background.jpg); 
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-}
-
-html,body{ margin : 0; height: 100%; overflow: hidden; }
-
-body{
-    font: italic small-caps bold 16px/2 cursive;
-    font-family: 'Pixel-Art', sans-serif;
-                                                
-    color :var(--textColor);
-}
-
-h1{
-    padding-left: 5%;
+/* CSS Resets */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
 ul {
-    list-style-type: none;
-    margin: 0; padding: 2%;
-    overflow: hidden;
+  list-style-type: none;
 }
 
-li{
-    list-style: none;
-    float :left;
-    padding-left: 3%; padding-right: 3%;
+a {
+  text-decoration: none;
+  color: var(--primary-color);
 }
 
-li a{
-    display: block;
-    padding: 2px;
-    text-align: center;
-    text-decoration: none;
+a:hover {
+  color: var(--secondary-color);
 }
 
-.MenuItem{
-    border : solid;
-    color :var(--textColor);
-
-    padding-top: 2%;
-    padding-bottom: 2%;
-    padding-right: 2%;
-
-    border-color: white;
-    border-width: 1px;;
-    text-align: center;
-}
-
-.MenuItem:hover{
-    border-color:var(--hoverColor);
-    background-color: var(--backgroundItemColor);   
-}
-
-a:link, a:visited{
-    color:var(--textColor);
-}
-.MenuItem a:hover, .MenuItem a:active{
-    color : var(--hoverColor);
+body {
+  font-family: var(--font-family);
 }
