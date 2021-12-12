@@ -11,6 +11,8 @@
   --page-color: #9c819e;
   --primary-color: #e2cca2;
   --secondary-color: #e6962e;
+  --link-color: #e8aa59;
+
   --primary-shadow: #2c2c30;
   --secondary-shadow: #151211;
 
@@ -43,7 +45,7 @@ ul {
 
 a {
   text-decoration: none;
-  color: var(--primary-color);
+  color: var(--link-color);
 }
 
 a:hover {
@@ -68,7 +70,7 @@ nav {
 }
 
 nav a{
-    color: var(--primary-color);
+    color: var(--link-color);
     transition: var(--transition);
 }
 
@@ -111,7 +113,7 @@ nav ul li {
 .hero img {
     height: 25rem;
     width: 25rem;
-  }
+}
   
 .bio {
     width: 25rem;
