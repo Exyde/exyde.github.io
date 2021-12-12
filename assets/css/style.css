@@ -176,9 +176,16 @@ nav ul li {
 .icon-card {
     background-color: var(--alpha-primary-color);
     border-radius: 11px;
+    border-color: var(--secondary-color);
     box-shadow: 0 3px 10px var(--secondary-shadow);
     padding: 20px;
     margin: 10px;
+}
+
+.icon-card:hover{
+    border-color: var(--link-color);
+    transition: 3;
+    border-radius: 25;
 }
   
 
