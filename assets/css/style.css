@@ -24,11 +24,15 @@ html {
   scroll-behavior: smooth;
 }
 
-/* CSS Resets */
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+}
+
+body {
+  font-family: var(--font-family);
+  color: var(--primary-color);
 }
 
 ul {
@@ -44,10 +48,9 @@ a:hover {
   color: var(--secondary-color);
 }
 
-body {
-  font-family: var(--font-family);
-  color: var(--primary-color);
-}
+/* ----------------------------------------------------------------------*/
+/* ----------------------NAVIGATION BAR--------------------------------- */
+/* ----------------------------------------------------------------------*/
 
 nav {
     position: sticky;
@@ -88,4 +91,8 @@ nav ul li {
     cursor: pointer;
     display: none;
 }
+/* ----------------------------------------------------------------------/
+/* ----------------------------------------------------------------------/
+/* ----------------------------------------------------------------------/
+
   
