@@ -8,6 +8,7 @@
   --bolder-font: 900;
 
   --bg-color: #806882;
+  --page-color: #9c819e;
   --primary-color: #e2cca2;
   --secondary-color: #e6962e;
   --primary-shadow: #2c2c30;
@@ -33,7 +34,7 @@ html {
 body {
   font-family: var(--font-family);
   color: var(--primary-color);
-  background-color: #a4b3b5;
+  background-color: var(--page-color);
 }
 
 ul {
