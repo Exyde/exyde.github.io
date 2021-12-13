@@ -9,8 +9,6 @@ scrollUp.addEventListener("click", () => {
   });
 });
 
-
-
 //Toggle the menu items.
 const burger = document.querySelector("#burger-menu");
 const ul = document.querySelector("nav ul");

@@ -10,12 +10,12 @@
   /* First Palette */
 
 
-  --bg-color: #806882;
-  --page-color: #9c819e;
-  --primary-color: #e2cca2;
+  --bg-color: #000000;
+  --page-color: #181616;
+  --primary-color: #f5bb4e;
   --secondary-color: #e6962e;
-  --alpha-primary-color : rgba(135, 194, 193, 0.2);
-  --link-color: #e8aa59;
+  --alpha-primary-color : rgba(68, 107, 107, 0.912);
+  --link-color: #578382;
 
   /* Second palette */
   /*
@@ -248,7 +248,7 @@ nav ul li {
 }
 
 .project-card {
-  background-color:var(--alpha-primary-color);
+  background-color:var(--primary-shadow);
   border-radius: 11px;
   box-shadow: 0 3px 10px var(--primary-shadow);
   padding: 20px;
@@ -404,8 +404,8 @@ footer {
   }
 
   .hero img {
-      height: 25rem;
-      width: 25rem;
+      height: 18rem;
+      width: 18rem;
       padding-top: 1rem;
       padding-bottom: 1rem;
     }
@@ -432,8 +432,8 @@ footer {
 
 /************  SKILLS ***************/
 .icon {
-  width: 5rem;
-  height: 5rem;
+  width: 4rem;
+  height: 4rem;
 }
 
 /************  PROJECT ***************/
@@ -443,6 +443,9 @@ footer {
 
 .project-container {
   width: 20rem;
+  padding-top: 1rem;
+  padding-bottom: 4rem;
+
 }
 
 /************  CONTACT ***************/
