@@ -1,0 +1,47 @@
+@import './constants.css';
+
+.skills {
+    max-width: 68.75rem;
+    margin: auto;
+    text-align: center;
+    margin-top: 2.5rem;
+}
+
+.skill-header {
+    margin-bottom: 1rem;
+}
+
+.skills-wrapper img {
+    padding: 1.25rem;
+}
+
+.icon {
+    width: 8rem;
+    height: 8rem;
+}
+
+.icon-card {
+    background-color: var(--alpha-primary-color);
+    border-radius: 0px;
+    border-color: var(--secondary-color);
+    border : solid;
+    border-width: 1px;
+    box-shadow: 0 3px 10px var(--secondary-shadow);
+    padding: 20px;
+    margin: 10px;
+}
+
+.icon-card:hover{
+    border-color: var(--link-color);
+    transition: 3;
+    border-radius: 12px;
+}
+
+@media screen and (max-width: 720px) {
+
+    .icon {
+        width: 4rem;
+        height: 4rem;
+    }
+}
+  
