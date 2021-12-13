@@ -7,12 +7,25 @@
   --bold-font: 700;
   --bolder-font: 900;
 
+  /* First Palette */
+
+
   --bg-color: #806882;
   --page-color: #9c819e;
   --primary-color: #e2cca2;
   --secondary-color: #e6962e;
   --alpha-primary-color : rgba(135, 194, 193, 0.2);
   --link-color: #e8aa59;
+
+  /* Second palette */
+  /*
+  --page-color: #000306;
+  --primary-color: #302e35;
+  --secondary-color: #364b4c;
+  --bg-color: #94989e;
+  --link-color: yellow;
+  --alpha-primary-color : #eff4f4;
+  */
 
   --primary-shadow: #2c2c30;
   --secondary-shadow: #151211;
@@ -334,10 +347,128 @@ footer {
   margin: 2rem 0 0;
 }
 
+/* ------------------------SCROLL UP BUTTON---------------------------*/
+.scroll-up {
+  position: fixed;
+  right: 0.5%;
+  bottom: 3%;
+  cursor: pointer;
+}
+
+.up-arrow {
+  width: 3rem;
+  height: 3rem;
+}
 
 
 
+/* - RESPONSIVE PART -*/
 
+@media screen and (max-width: 720px) {
+
+/************** NAV ***************/
+  nav {
+    padding: 1.5rem 1rem;
+  }
+
+  nav ul {
+    position: fixed;
+    background-color: var(--bg-color);
+    flex-direction: column;
+    top: 86px;
+    left: 10%;
+    width: 80%;
+    text-align: center;
+    transform: translateX(-120%);
+    transition: transform 0.5s ease-in;
+  }
+
+   nav ul li {
+    margin: 8px;
+  }
+
+  .burger-menu {
+    display: block;
+  }
+
+  nav ul.show {
+    transform: translateX(0);
+  }
+
+/************** HERO ***************/
+
+  .hero {
+    margin-top: -4rem;
+    flex-direction: column;
+    gap: 0;
+  }
+
+  .hero img {
+      height: 25rem;
+      width: 25rem;
+      padding-top: 1rem;
+      padding-bottom: 1rem;
+    }
+
+  .bio {
+    margin-top: 0 rem;
+    width: 20.5rem;
+  }
+}
+
+/************** MORE ABOUT ***************/
+.more-about {
+  margin-top: 2rem;
+  padding: 1rem 3.5rem;
+}
+
+.more-about h2 {
+  text-align: center;
+}
+
+.more-about p {
+  text-align: justify;
+}
+
+/************  SKILLS ***************/
+.icon {
+  width: 5rem;
+  height: 5rem;
+}
+
+/************  PROJECT ***************/
+.projects-container {
+  flex-direction: column;
+}
+
+.project-container {
+  width: 20rem;
+}
+
+/************  CONTACT ***************/
+
+.contact-form-container {
+  max-width: 23.75rem;
+}
+
+@media screen and (max-width: 420px) {
+  .hero img {
+    height: 37.5rem;
+    width: 23rem;
+  }
+
+  .bio {
+    width: 18.3rem;
+  }
+
+  .project-container {
+    width: 17.875rem;
+  }
+
+  .contact-form-container {
+    max-width: 17.75rem;
+  }
+} 
 
 
 
