@@ -21,13 +21,22 @@ burger.addEventListener("click", () => {
 // Close hamburger menu when a link is clicked
 
 // Select nav links
-const navLink = document.querySelectorAll(".MenuItem");
+const menuItem = document.querySelectorAll(".MenuItem");
 
-navLink.forEach((link) =>
-  link.addEventListener("click", () => {
+menuItem.forEach((item) =>
+  item.addEventListener("click", () => {
     ul.classList.remove("show");
   })
 );
+
+menuItem.forEach((item) =>
+  item.addEventListener("mouseOver", () => {
+    item.style.color = "purple";
+  })
+);
+
+//Nav hovering
+
 
 
 
