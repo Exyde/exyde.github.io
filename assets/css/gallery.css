@@ -1,0 +1,25 @@
+@import './constants.css';
+
+.Gallery{
+    background-color: var(--bg-color);
+    max-width : 100rem;
+    margin-top: 2.5rem;
+    margin: auto;
+    text-align: center;
+}
+
+.GalleryRow{
+    display: inline-flex;
+}
+
+.GalleryItem{
+    width : 15rem;
+    height : 15rem;
+
+    padding-left : 2.5rem; padding-right: 2.5rem;
+    padding-top : 2.5rem;
+    border : solid;
+    border-width : 1px;
+    border-color: white;
+    margin: 0.5rem;
+}

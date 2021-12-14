@@ -31,17 +31,6 @@ nav ul li {
     font-weight: var(--bold-font);
 }
 
-nav ul li:hover .SubMenu{
-    opacity: 1;
-    transition: opacity .5s;
-}
-
-.SubMenu{
-    opacity: 0;
-    transition: opacity .5s;
-    display: flow-root;
-}
-
 .burger-menu {
     color: var(--primary-color);
     font-size: 2rem;
@@ -50,6 +39,12 @@ nav ul li:hover .SubMenu{
     cursor: pointer;
     display: none;
 }
+
+.lip p{
+    padding-top: 10rem;
+    padding-bottom: 10rem;
+}
+
 
 @media screen and (max-width: 720px) {
     nav {
