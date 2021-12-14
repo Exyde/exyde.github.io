@@ -9,28 +9,3 @@ if (scrollUp){
     });
   });
 }
-
-//Toggle the menu items.
-const burger = document.querySelector("#burger-menu");
-const ul = document.querySelector("nav ul");
-if (burger){
-  burger.addEventListener("click", () => {
-      ul.classList.toggle("show");
-    });
-}
-
-// Close hamburger menu when a link is clicked
-const menuItem = document.querySelectorAll(".MenuItem");
-if (menuItem){
-  menuItem.forEach((item) =>
-  item.addEventListener("click", () => {
-    ul.classList.remove("show");
-  })
-);
-
-}
-
-
-
-
-
