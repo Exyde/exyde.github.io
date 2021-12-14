@@ -18,7 +18,7 @@
 
     padding-left : 2.5rem; padding-right: 2.5rem;
     padding-top : 2.5rem;
-    border : solid;
+    border : none;
     border-width : 1px;
     border-color: white;
     margin: 0.5rem;
@@ -27,7 +27,7 @@
 
 }
 
-.GalleryItem:active{
+.GalleryItem:hover{
     opacity: 1;
     width : 30em;
     height : 30rem;
