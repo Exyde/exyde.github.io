@@ -22,4 +22,23 @@
     border-width : 1px;
     border-color: white;
     margin: 0.5rem;
+    opacity: .3;
+    transition: 0.5s;
+
 }
+
+.GalleryItem:active{
+    opacity: 1;
+    width : 30em;
+    height : 30rem;
+
+    
+    padding-left : 2.5rem; padding-right: 2.5rem;
+    padding-top : 2.5rem;
+    border : solid;
+    border-width : 1px;
+    border-color: var(--link-color);
+    margin: 0.5rem;
+    transition: 0.5s;
+}
+
