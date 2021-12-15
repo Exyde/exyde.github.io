@@ -1,3 +1,5 @@
+import * as THREE from '../../node_modules/three/src/Three.js';
+
 //Setup
 const scene = new THREE.Scene(); 
 //Fov, aspect ratio, near and far clipping planes
@@ -10,32 +12,6 @@ document.body.appendChild( renderer.domElement );
 const geometry = new THREE.BoxGeometry();
 const material = new THREE.MeshBasicMaterial( { color: 0xffff00 } );
 const cube = new THREE.Mesh( geometry, material );
-
-//const loader = new OBJLoader();ath.sin(1) * frequency;
-/*
-loader.load(
-	// resource URL
-	"../models/Buster_Sword.obj",
-	// called when resource is loaded
-	function ( object ) {
-
-		scene.add( object );
-
-	},
-	// called when loading is in progresses
-	function ( xhr ) {
-
-		console.log( ( xhr.loaded / xhr.total * 100 ) + '% loaded' );
-
-	},
-	// called when loading has errors
-	function ( error ) {
-
-		console.log( 'An error happened' );
-
-	}
-);
-*/
 
 //Define a line
 const points = [];
