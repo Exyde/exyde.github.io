@@ -1,10 +1,24 @@
 import * as THREE from '../../node_modules/three/src/Three.js';
+import { BloomEffect, EffectComposer, EffectPass, RenderPass }
+	from "../../node_modules/postprocessing/build/postprocessing.js";
 
 //Setup
 const scene = new THREE.Scene(); 
 //Fov, aspect ratio, near and far clipping planes
 const camera = new THREE.PerspectiveCamera( 75, window.innerWidth / window.innerHeight, 0.1, 1000 );
-const renderer = new THREE.WebGLRenderer();
+const renderer = new THREE.WebGLRenderer({
+	powerPreference: "highPerformance",
+	antialias : false,
+	stencil : false,
+	depth : false
+});
+
+
+const composer = new EffectComposer(renderer);
+composer.addPass(new RenderPass(scene, camera));
+composer.addPass(new EffectPass(camera, new BloomEffect()));
+
+
 renderer.setSize( window.innerWidth, window.innerHeight );
 document.body.appendChild( renderer.domElement );
 
@@ -27,6 +41,8 @@ scene.add(line);
 
 camera.position.z = 5;
 
+
+
 //Loop function
 function animate() {
 
@@ -46,6 +62,13 @@ function animate() {
 	requestAnimationFrame( animate );
 	renderer.render( scene, camera );
 }
+
+requestAnimationFrame(function render() {
+
+	requestAnimationFrame(render);
+	composer.render();
+
+});
 
 //Run
 animate();
