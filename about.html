@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+  <div include-html="./assets/includes/header.html"></div>
+
+    <!-- Nav Section -->
+  <div include-html="./assets/includes/nav.html"></div>
+    
+    <!-- Hero Section -->
+  <section class="hero" id="about">
+        <img
+          src="assets/images/png01.png"
+          alt="Presentation section"
+          loading="lazy"
+          class="hero-img"
+        />
+        <div class="bio animate__animated animate__shakeX">
+          <h2 class="bio-title">About Me</h2>
+          <p class="bio-text">
+            Hello ! Ici Sly alias Exyde, Younes de mon prénom !
+
+            J'ai 25 ans et je suis actuellement en
+            Licence Pro Métier du Jeux Vidéos à Montpellier.            
+          </p>
+        </div>
+        <img
+          src="assets/images/png03.PNG"
+          alt="Presentation section"
+          loading="lazy"
+          class="hero-img"
+        />
+  </section>
+  
+    <!-- More about -->
+  <section class="more-about">
+        <h2>More About Me</h2>
+        <p>
+            Sur les pages suivantes vous trouverez différents travaux et expérimentations concernant
+            la musique, la programmation, le prototypage, les effets visuels, le Visual Coding et le Design.
+            Vous pouvez également retrouver une bonne partie de mon travail sur ma page <a href="https://exyde.itch.io/" target="blank">Itch.io</a>.
+        </p>
+  </section>
+
+    <!-- Skills section -->
+    <section class="skills" id="skills">
+        <h2 class="skill-header">My Top Skills</h2>
+
+        <div class="skills-wrapper">
+            <div class="first-set animate__animated animate__pulse">
+                <img src="assets/icons/icons8-html-5.svg" loading="lazy" class="icon icon-card"/>
+                <img src="assets/icons/icons8-git.svg" loading="lazy" class="icon icon-card"/>
+                <img src="assets/icons/icons8-javascript.svg" loading="lazy" class="icon icon-card"/>
+                <img src="assets/icons/icons8-javascript.svg" loading="lazy" class="icon icon-card"/>
+                <img src="assets/icons/icons8-javascript.svg" loading="lazy" class="icon icon-card"/>
+
+            </div>
+
+            <div class="second-set animate__animated animate__pulse">
+                <img src="assets/icons/icons8-html-5.svg" loading="lazy" class="icon icon-card"/>
+                <img src="assets/icons/icons8-git.svg" loading="lazy" class="icon icon-card"/>
+                <img src="assets/icons/icons8-javascript.svg" loading="lazy" class="icon icon-card"/>
+            </div>
+
+            <div class="third-set animate__animated animate__pulse">
+                <img src="assets/icons/icons8-html-5.svg" loading="lazy" class="icon icon-card"/>
+                <img src="assets/icons/icons8-git.svg" loading="lazy" class="icon icon-card"/>
+                <img src="assets/icons/icons8-javascript.svg" loading="lazy" class="icon icon-card"/>
+                <img src="assets/icons/icons8-javascript.svg" loading="lazy" class="icon icon-card"/>
+
+            </div>
+        </div>
+  </section>
+
+    <!-- Projects section -->
+    <section class="projects" id="projects">
+      <h2 class="projects-title">Some of my Recent Projects</h2>
+      <div class ="projects-container">
+
+        <div class="project-container project-card">
+          <img src="assets/images/png01.png" loading="lazy" class="project-pic"/>
+          <h3 class="project-title">Greeny Earth</h3>
+          <p class="project-details">
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quas
+            ratione vel inventore labore commodi modi quos culpa aut saepe!
+            Alias!
+          </p>
+          <a href="#" target="_blank" class="project-link">Check it Out</a>
+        </div>
+
+        <div class="project-container project-card">
+          <img src="assets/images/png03.PNG" loading="lazy" class="project-pic"/>
+          <h3 class="project-title">VFX Alpha 2013.</h3>
+          <p class="project-details">
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quas
+            ratione vel inventore labore commodi modi quos culpa aut saepe!
+            Alias!
+          </p>
+          <a href="#" target="_blank" class="project-link">Check it Out</a>
+        </div>
+
+        <div class="project-container project-card">
+          <img src="assets/images/png02.PNG" loading="lazy" class="project-pic"/>
+
+          <h3 class="project-title">Greeny Earth</h3>
+          <p class="project-details">
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quas
+            ratione vel inventore labore commodi modi quos culpa aut saepe!
+            Alias!
+          </p>
+          <a href="#" target="_blank" class="project-link">Check it Out</a>
+        </div>
+      
+      </div>
+
+    </section>
+
+    <!-- Contact section -->
+    <section class="contact" id="contact">
+      <h2>Get In Touch With Me</h2>
+      <div class="contact-form-container">
+        <div class="contact-form">
+          <form action="" method="get" enctype="text/plain">
+            
+            <div class="form-control">
+              <label for="name">Name</label>
+              <input type="text" id="name" name="sender-name" placeholder="Enter Your Name" class="input-field" required />
+            </div>
+
+            <div class="form-control">
+              <label for="email">Email</label>
+              <input type="email" id="email" name="sender-email" placerholder="Enter your email..." class="input-field" required/>
+            </div>
+
+            <div class="form-control">
+              <label for="message">Message</label>
+              <textarea id="message" cols="60" rows="10" placeholder="Enter Your Message" 
+                        name="message" class="input-field" required></textarea>
+            </div>
+
+            <input
+              type="submit"
+              value="Submit"
+              id="submit-btn"
+              class="submit-btn"
+            />
+          </form>
+        </div>
+      </div>
+    </section>
+
+    <!-- Social accounts - Fixed to the right -->
+    <div include-html="./assets/includes/social.html"></div>
+
+    <div include-html="./assets/includes/footer.html"></div>
+
+    <!-- Website scripts -->
+    <script src="assets/js/app.js"></script>
+    <script src="assets/js/include.js"></script>
+
+    <!-- Ion icons scripts -->
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js" ></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+  </body>
+</html>

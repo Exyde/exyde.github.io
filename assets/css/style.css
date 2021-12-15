@@ -30,15 +30,6 @@ a:hover {
   color: var(--secondary-color);
 }
 
-.CVContainer{
-  width: 100%;
-  text-align: center;
-}
-
-.CV{
-  display: inline-block;
-}
-
 /* -lip-----------------------SOCIAL SECTION---------------------------*/
 
 .socials {
