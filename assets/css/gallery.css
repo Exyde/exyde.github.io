@@ -22,12 +22,12 @@
     border-width : 1px;
     border-color: white;
     margin: 0.5rem;
-    opacity: .3;
+    opacity: 1;
     transition: 0.5s;
 
 }
 
-.GalleryItem:hover{
+/* .GalleryItem:hover{
     opacity: 1;
     width : 30em;
     height : 30rem;
@@ -40,5 +40,5 @@
     border-color: var(--link-color);
     margin: 0.5rem;
     transition: 0.5s;
-}
+} */
 
