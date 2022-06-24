@@ -1,11 +1,4 @@
-<!doctype html>
-<html>
-  <head>
-    <meta charset="utf-8">
-    <title>About</title>
-  </head>
-  <body>
-    <h1 id="about-page">About page</h1>
+I"0<h1 id="about-page">About page</h1>
 
 <p>Hello there. We will have a little presentation <strong>here</strong>.</p>
 
@@ -46,18 +39,8 @@
   <li>Use ![[alt]] + [ references ] for <em><strong>references images</strong></em></li>
 </ul>
 
-<!--Yo  -->
-
 <blockquote>
   <p>“Use “&gt;” for creating a new <em><strong>BlockQuote</strong></em> !”</p>
-
-  <p>Those can also be multilined.</p>
-
-  <p>And look pretty nice.</p>
 </blockquote>
 
-<p>Something clear after.</p>
-
-
-  </body>
-</html>
+:ET

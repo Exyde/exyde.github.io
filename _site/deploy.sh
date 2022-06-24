@@ -1,4 +1,4 @@
-!#/bin/bash
+#!/bin/bash
 
 #Small command to build website and run local server.
 

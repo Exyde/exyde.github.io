@@ -1,0 +1,25 @@
+I"C<h1 id="about-page">About page</h1>
+
+<p>Hello there. We will have a little presentation <strong>here</strong>.</p>
+
+<h2 id="im-sly">I’m Sly</h2>
+<h4 id="a-game-developper">A Game Developper</h4>
+<h4 id="and-also-a-designer">And also a designer</h4>
+<h5 id="and-a-sound-maker">and a sound maker</h5>
+<h6 id="and-an-artist-and-so-much-more">and an artist… <em>and so much more…</em></h6>
+
+<h4 id="lets-talk-about-stuff-like">Let’s talk about stuff like:</h4>
+<ul>
+  <li>Demons</li>
+  <li><strong><em>Procedural Art</em></strong></li>
+  <li><em>Unity Programming</em></li>
+  <li>3D Modeling</li>
+  <li>Entropy, Ecologics, Cultural Models, PolyA</li>
+  <li>Polymath (LEL).
+    <ul>
+      <li>This one is a <strong>private</strong> joke</li>
+      <li>Litteraly about <strong>testing</strong> MD stuff.</li>
+    </ul>
+  </li>
+</ul>
+:ET

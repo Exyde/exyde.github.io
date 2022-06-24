@@ -1,11 +1,4 @@
-<!doctype html>
-<html>
-  <head>
-    <meta charset="utf-8">
-    <title>About</title>
-  </head>
-  <body>
-    <h1 id="about-page">About page</h1>
+I"�<h1 id="about-page">About page</h1>
 
 <p>Hello there. We will have a little presentation <strong>here</strong>.</p>
 
@@ -42,22 +35,8 @@
   <li>Use # in range [1, 6] for <em>Headers</em></li>
   <li>Use [] + () for <a href="https://www.github.com"><em><strong>inlinelinks</strong></em></a></li>
   <li>Use [] + [] for <a href="https://www.markdowntutorial.com/"><em><strong>reference links</strong></em></a></li>
-  <li>Use ![[alt]] +( link ) for <em><strong>inline images</strong></em></li>
-  <li>Use ![[alt]] + [ references ] for <em><strong>references images</strong></em></li>
+  <li>Use <img src="(link)" alt="[alt]" /> for images</li>
+  <li><img src="https://octodex.github.com/images/bannekat.png" alt="Benjamin Bannekat" /></li>
 </ul>
 
-<!--Yo  -->
-
-<blockquote>
-  <p>“Use “&gt;” for creating a new <em><strong>BlockQuote</strong></em> !”</p>
-
-  <p>Those can also be multilined.</p>
-
-  <p>And look pretty nice.</p>
-</blockquote>
-
-<p>Something clear after.</p>
-
-
-  </body>
-</html>
+:ET

@@ -1,11 +1,4 @@
-<!doctype html>
-<html>
-  <head>
-    <meta charset="utf-8">
-    <title>About</title>
-  </head>
-  <body>
-    <h1 id="about-page">About page</h1>
+I"¤<h1 id="about-page">About page</h1>
 
 <p>Hello there. We will have a little presentation <strong>here</strong>.</p>
 
@@ -58,6 +51,4 @@
 
 <p>Something clear after.</p>
 
-
-  </body>
-</html>
+:ET
