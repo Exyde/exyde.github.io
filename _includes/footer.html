@@ -1,0 +1,7 @@
+<footer>
+    <nav>
+        {% for link in site.data.links %}
+            <a href="{{ link.url }}" target="_blank">{{link.name}}</a>
+        {% endfor %}
+    </nav>
+</footer>
