@@ -7,8 +7,8 @@
 	],
 	"sourcesContent": [
 		"@import \"main\";",
-		".currentUrl{\n    color : cyan;\n    border-radius: 1px;\n}\n\nbody{\n    color: white;\n    background-color: black;\n}\n"
+		".currentUrl{\n    color : cyan;\n    border-radius: 1px;\n}\n\nbody{\n    color: white;\n    background-color: black;\n}\n\nnav{\n    display:flex;\n    margin: auto;;\n}\n\nnav a{\n    color:aquamarine;\n\n    border-radius: 1px;\n    border-color: cyan;\n    border-style:solid;\n    padding: 3%;\n    margin: 2%;\n    margin-left: 5px;\n    margin-right: 5px;\n}\n\nh1{\n    color:blueviolet;\n}\n\nh2{\n    color:yellow;\n}\n\nh3{\n    color:cyan;\n}\n\nli{\n    color:aquamarine;\n}"
 	],
 	"names": [],
-	"mappings": "ACAA,AAAA,WAAW,CAAA,EACP,KAAK,EAAG,IAAI,EACZ,aAAa,EAAE,GAAG,GACrB;;AAED,AAAA,IAAI,CAAA,EACA,KAAK,EAAE,KAAK,EACZ,gBAAgB,EAAE,KAAK,GAC1B"
+	"mappings": "ACAA,AAAA,WAAW,CAAA,EACP,KAAK,EAAG,IAAI,EACZ,aAAa,EAAE,GAAG,GACrB;;AAED,AAAA,IAAI,CAAA,EACA,KAAK,EAAE,KAAK,EACZ,gBAAgB,EAAE,KAAK,GAC1B;;AAED,AAAA,GAAG,CAAA,EACC,OAAO,EAAC,IAAI,EACZ,MAAM,EAAE,IAAI,GACf;;AAED,AAAA,GAAG,CAAC,CAAC,CAAA,EACD,KAAK,EAAC,UAAU,EAEhB,aAAa,EAAE,GAAG,EAClB,YAAY,EAAE,IAAI,EAClB,YAAY,EAAC,KAAK,EAClB,OAAO,EAAE,EAAE,EACX,MAAM,EAAE,EAAE,EACV,WAAW,EAAE,GAAG,EAChB,YAAY,EAAE,GAAG,GACpB;;AAED,AAAA,EAAE,CAAA,EACE,KAAK,EAAC,UAAU,GACnB;;AAED,AAAA,EAAE,CAAA,EACE,KAAK,EAAC,MAAM,GACf;;AAED,AAAA,EAAE,CAAA,EACE,KAAK,EAAC,IAAI,GACb;;AAED,AAAA,EAAE,CAAA,EACE,KAAK,EAAC,UAAU,GACnB"
 }

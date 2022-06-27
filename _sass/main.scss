@@ -7,3 +7,36 @@ body{
     color: white;
     background-color: black;
 }
+
+nav{
+    display:flex;
+    margin: auto;;
+}
+
+nav a{
+    color:aquamarine;
+
+    border-radius: 1px;
+    border-color: cyan;
+    border-style:solid;
+    padding: 3%;
+    margin: 2%;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+h1{
+    color:blueviolet;
+}
+
+h2{
+    color:yellow;
+}
+
+h3{
+    color:cyan;
+}
+
+li{
+    color:aquamarine;
+}
