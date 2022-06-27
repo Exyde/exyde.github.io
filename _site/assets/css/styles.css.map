@@ -1,0 +1,14 @@
+{
+	"version": 3,
+	"file": "styles.css",
+	"sources": [
+		"styles.scss",
+		"_sass/main.scss"
+	],
+	"sourcesContent": [
+		"@import \"main\";",
+		".currentUrl{\n    color : cyan;\n    border-radius: 1px;\n}\n\nbody{\n    color: white;\n    background-color: black;\n}\n"
+	],
+	"names": [],
+	"mappings": "ACAA,AAAA,WAAW,CAAA,EACP,KAAK,EAAG,IAAI,EACZ,aAAa,EAAE,GAAG,GACrB;;AAED,AAAA,IAAI,CAAA,EACA,KAAK,EAAE,KAAK,EACZ,gBAAgB,EAAE,KAAK,GAC1B"
+}

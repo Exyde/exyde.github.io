@@ -1,22 +1,4 @@
-<!doctype html>
-<html>
-  <head>
-    <meta charset="utf-8">
-    <title>About</title>
-    <link rel="stylesheet" href="/assets/css/styles.css">
-  </head>
-  <body>
-    <nav>
-    <p>Navigation Panel</p>
-    
-        <a href="/">Home</a>
-    
-        <a href="/about.html" class="currentUrl">About</a>
-    
-        <a href="/blog.html">Blog</a>
-    
-</nav>
-    <h1 id="about-page">About page</h1>
+I"÷<h1 id="about-page">About page</h1>
 
 <p>Hello there. We will have a little presentation <strong>here</strong>.</p>
 
@@ -70,6 +52,4 @@
 
 <p>Something clear after.</p>
 
-
-  </body>
-</html>
+:ET

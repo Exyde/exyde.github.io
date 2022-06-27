@@ -37,6 +37,7 @@ Hello there. We will have a little presentation __here__.
 - Use [] + [] for [*__reference links__*][Markdown]
 - Use ![[alt]] +( link ) for *__inline images__*
 - Use ![[alt]] + [ references ] for *__references images__*
+- Use [..] (2 spaces) for creating a *__soft break__*
 
 
 <!--Yo  -->
