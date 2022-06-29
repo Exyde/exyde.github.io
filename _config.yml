@@ -2,3 +2,6 @@ plugins:
   - jekyll-feed
   - jekyll-sitemap
   - jekyll-seo-tag
+
+domain: exyde.github.io
+url: https://exyde.github.io
