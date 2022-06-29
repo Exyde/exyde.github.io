@@ -5,4 +5,5 @@ plugins:
 
 domain: exyde.github.io
 url: https://exyde.github.io
+baseurl: ""
 theme: jekyll-theme-midnight
