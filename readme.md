@@ -1,4 +1,6 @@
-## Welcome to my blog/website/portfolio using Jekyll.
+##Url : https://exyde.github.io/
+
+##Welcome to my blog/website/portfolio using Jekyll.
 
 Later we will implement :
     - JS
