@@ -1,35 +1,35 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.2.2">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2022-06-27T15:37:54+02:00</updated><id>http://localhost:4000/feed.xml</id><entry><title type="html">Hello Burning World</title><link href="http://localhost:4000/2022/06/27/hello-burning-world.html" rel="alternate" type="text/html" title="Hello Burning World" /><published>2022-06-27T00:00:00+02:00</published><updated>2022-06-27T00:00:00+02:00</updated><id>http://localhost:4000/2022/06/27/hello-burning-world</id><content type="html" xml:base="http://localhost:4000/2022/06/27/hello-burning-world.html"><![CDATA[<h1 id="hello-there">Hello There.</h1>
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.9.2">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2022-06-29T15:23:46+02:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">exyde.github.io</title><entry><title type="html">Hello Burning World</title><link href="http://localhost:4000/2022/06/27/hello-burning-world.html" rel="alternate" type="text/html" title="Hello Burning World" /><published>2022-06-27T00:00:00+02:00</published><updated>2022-06-27T00:00:00+02:00</updated><id>http://localhost:4000/2022/06/27/hello-burning-world</id><content type="html" xml:base="http://localhost:4000/2022/06/27/hello-burning-world.html">&lt;h1 id=&quot;hello-there&quot;&gt;Hello There.&lt;/h1&gt;
 
-<h3 id="an-old-time-project">An old time project</h3>
+&lt;h3 id=&quot;an-old-time-project&quot;&gt;An old time project&lt;/h3&gt;
 
-<p>I finally decided to put some time on creating my own custom website. While the world is burning &amp; the french politics are going mad, I decided to deploy this kind of personnal online notebook. I plain to share a lot of things here, such as :</p>
+&lt;p&gt;I finally decided to put some time on creating my own custom website. While the world is burning &amp;amp; the french politics are going mad, I decided to deploy this kind of personnal online notebook. I plain to share a lot of things here, such as :&lt;/p&gt;
 
-<ul>
-  <li>Programming related topics</li>
-  <li>Experimentation about art, audio, generative stuffs</li>
-  <li>Personnal toughs on life, society, spiritually</li>
-  <li>Technical Art</li>
-  <li>In fact, everything I want, since it’s my blog :]</li>
-</ul>
+&lt;ul&gt;
+  &lt;li&gt;Programming related topics&lt;/li&gt;
+  &lt;li&gt;Experimentation about art, audio, generative stuffs&lt;/li&gt;
+  &lt;li&gt;Personnal toughs on life, society, spiritually&lt;/li&gt;
+  &lt;li&gt;Technical Art&lt;/li&gt;
+  &lt;li&gt;In fact, everything I want, since it’s my blog :]&lt;/li&gt;
+&lt;/ul&gt;
 
-<h3 id="why-for-">Why for ?</h3>
+&lt;h3 id=&quot;why-for-&quot;&gt;Why for ?&lt;/h3&gt;
 
-<p>There are at least two purposes in this blog.</p>
-<ol>
-  <li>I’ve a <em>bad memory</em>, and it’s a good way to keep track off some topics, knowledge, experimentations, toughs.</li>
-  <li>Sharing this knowledge with other people, who might be interested !</li>
-</ol>
+&lt;p&gt;There are at least two purposes in this blog.&lt;/p&gt;
+&lt;ol&gt;
+  &lt;li&gt;I’ve a &lt;em&gt;bad memory&lt;/em&gt;, and it’s a good way to keep track off some topics, knowledge, experimentations, toughs.&lt;/li&gt;
+  &lt;li&gt;Sharing this knowledge with other people, who might be interested !&lt;/li&gt;
+&lt;/ol&gt;
 
-<h3 id="lately-who-am-i-">Lately, who am I ?</h3>
+&lt;h3 id=&quot;lately-who-am-i-&quot;&gt;Lately, who am I ?&lt;/h3&gt;
 
-<p>So… I’m <strong>Sly</strong>, or <strong>Exyde</strong>. I’m a french <em>Game Maker, Designer, Artist, Programmer…</em> and I don’t like boxes.
+&lt;p&gt;So… I’m &lt;strong&gt;Sly&lt;/strong&gt;, or &lt;strong&gt;Exyde&lt;/strong&gt;. I’m a french &lt;em&gt;Game Maker, Designer, Artist, Programmer…&lt;/em&gt; and I don’t like boxes.
 I’m pretty the non-exhaustive list above tell a lot more about who I am than any predefined job name to be honnest :]
-But I’m pretty sure you’ll learn more about me following the posts in the blog section (or looking at the upcoming <em>gallery</em> ._.)</p>
+But I’m pretty sure you’ll learn more about me following the posts in the blog section (or looking at the upcoming &lt;em&gt;gallery&lt;/em&gt; ._.)&lt;/p&gt;
 
-<p>Aniway… cheers !</p>
+&lt;p&gt;Aniway… cheers !&lt;/p&gt;
 
-<p>Sly.</p>
+&lt;p&gt;Sly.&lt;/p&gt;
 
-<blockquote>
-  <p>This page is in progress and will evolve with time, probably.</p>
-</blockquote>]]></content><author><name>Sly</name></author><summary type="html"><![CDATA[Hello There.]]></summary></entry></feed>
+&lt;blockquote&gt;
+  &lt;p&gt;This page is in progress and will evolve with time, probably.&lt;/p&gt;
+&lt;/blockquote&gt;</content><author><name>Sly</name></author><summary type="html">Hello There.</summary></entry></feed>
