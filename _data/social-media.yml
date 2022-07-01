@@ -95,3 +95,8 @@ keybase:
   url   : https://www.keybase.io/
   icon  : fab fa-keybase
   color : 66ccff
+
+itch:
+  url : https://itch.io/
+  icon : fab fa-itch-io
+  color : 66ccff
